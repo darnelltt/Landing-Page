@@ -1,0 +1,66 @@
+body{
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.left-links{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.right-links{
+    display: flex;
+    gap: 10px;
+}
+
+.tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+}
+.but{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    text-align: center;
+    text-wrap: wrap;
+    background-color: #E5E7EB;
+    size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+}
+
+.end{
+    display: flex;
+    gap: 80px;
+    background-color: #3882f6;
+
+
+}
